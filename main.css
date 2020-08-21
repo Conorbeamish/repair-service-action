@@ -16,7 +16,22 @@ body {
     background-size: cover;
 }
 
-.ourworkimage{
+.landing-button{
+    color: #000000;
+    padding: 0.5rem;
+    margin-right: .5rem;
+    border: 1px solid black;
+    transition: 300ms;
+}
+
+.landing-button:hover{
+    background-color: black;
+    color: white;
+    text-decoration:none;
+    transition: 300ms
+}
+
+.our-work-image{
     background: linear-gradient( rgba(255, 255, 255, 0.781), rgba(255, 255, 255, 0.89) ), url(images/photo-1589554882481-e2a621b0eef3.jpeg);
     background-attachment: fixed;
     background-position: center;
@@ -28,29 +43,24 @@ body {
     background-color:#f2f2f2;
   } */
 
-  .tickIcon {
-      padding-bottom: 3px;
-  }
-
-  .landing-hr {
-    
+.landing-hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-        
-   }
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));  
+}
   
 
-   .capital {
-       color: #ff7300 ;
-       font-size: 125%;
-   }
+.capital {
+    color: #ff7300 ;
+    font-size: 125%;
+}
 
-   .capitaltwo {
+.capitaltwo {
     color: #000000 ;
     font-size: 100%;
     padding-bottom: 20px;
 }
+
 .capitalthree {
     color: #c7b8ac ;
     font-size: 125%;
