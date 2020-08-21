@@ -3,10 +3,17 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.fade-in{
+    opacity: 0;
+}
+
 .navbar-custom {
     background-color:white;
 }
 
+.nav-btn{
+    border: none;
+}
 
 .landing{
     background: linear-gradient( rgba(228, 217, 217, 0.1), rgba(219, 211, 211, 0.1) ), url(images/landingimage.jpeg);
