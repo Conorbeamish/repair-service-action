@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -46,10 +49,6 @@ body {
     background-size: cover;
 }
 
-/* body {
-    background-color:#f2f2f2;
-  } */
-
 .landing-hr {
     border: 0;
     height: 1px;
@@ -77,19 +76,8 @@ body {
     background-color: white;
 }
 
-.work {
-    color: #ff7300 ;
-    /* padding-bottom: 20%; */
-}
-
-.work2 {
-    padding-top: 4.0%;
-}
-
-
-.ourwork {
-    color: #ff7300 ;
- 
+.brand-color{
+    color:#ff7300 ;
 }
 
 .quote {
@@ -99,11 +87,6 @@ body {
 .whatwedo-hr {
     border:solid 1px #ff7300;
     width: 96%;
-    /* color: #FFFF00; */
     height: 1px;
 
-}
-
-.contact {
-    color: #ff7300;
 }
