@@ -79,3 +79,12 @@ body {
     background-color: #333333;
     color: white;
 }
+
+.footer a{
+    color: white;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: #ff7300;
+}
