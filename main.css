@@ -74,3 +74,8 @@ body {
 .quote {
     font-size: smaller;
 }
+
+.footer{
+    background-color: #333333;
+    color: white;
+}
