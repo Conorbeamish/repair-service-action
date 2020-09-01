@@ -19,12 +19,25 @@ body {
     border: none;
 }
 
+.nav-logo{
+    height: 2rem;
+}
+
 .landing{
     background: linear-gradient( rgba(228, 217, 217, 0.1), rgba(219, 211, 211, 0.1) ), url(images/landingimage.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.landing-icon{
+    max-width: 75%;
+    max-height: 40vh;
+}
+
+.black{
+    color: black;
 }
 
 .landing-button{
