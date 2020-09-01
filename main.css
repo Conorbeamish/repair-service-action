@@ -36,6 +36,13 @@ body {
     max-height: 40vh;
 }
 
+.gassafe{
+    height: 10rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .black{
     color: black;
 }
@@ -93,6 +100,15 @@ body {
     font-size: smaller;
 }
 
+.logos{
+    width: 100%;
+}
+
+.logos-img{
+    max-height: 4rem;
+    max-width: 100%;
+}
+
 .footer{
     background-color: #333333;
     color: white;
@@ -106,3 +122,9 @@ body {
     text-decoration: none;
     color: #ff7300;
 }
+
+@media only screen and (max-width: 600px) {
+    .gassafe {
+      height: 5rem;
+    }
+  }
