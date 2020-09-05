@@ -29,13 +29,13 @@ $( document ).ready(function() {
             enquiry: $("#enquiry").val()
         }
         $.ajax({
-            url: "https://formspree.io/YOUR_FORM_ID",
+            url: "https://formspree.io/mlepqgdb",
             method: "POST",
             dataType: "json",
             data: data,
             success: function(){
-                $(this).addClass("hidden");
-                $("form-message").removeClass("hidden")
+                $("#form").addClass("hidden");
+                $("#form-message").removeClass("hidden")
     
             },
             error: function(){
