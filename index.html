@@ -238,23 +238,26 @@
       </div>
       <div class="row">
         <div class="col-md-6 mx-auto fade-in">
-          <form class="pt-4" autocomplete="false">
+          <!-- action="https://formspree.io/useraccounthere" -->
+          <!-- method="POST" action="https://formspree.io/mbjzgbde" -->
+          <p id="form-message" class="hidden">Your message request has been sent</p>
+          <form id="form" class="pt-4" autocomplete="false">
             <div class="form-group">
               <label for="name">Name</label>
-              <input class="form-control" id="name" placeholder="Your Name" autocomplete="off" required>
+              <input class="form-control" id="name" name="name" placeholder="Your Name" autocomplete="off" required>
             </div>
             <div class="form-group">
               <label for="number">Telephone Number</label>
-              <input type="tel" class="form-control" id="number" placeholder="Enter number (optional)" autocomplete="off">
+              <input type="tel" class="form-control" id="number" name="number" placeholder="Enter number (optional)" autocomplete="off">
             </div>
             <div class="form-group">
               <label for="email">Email address</label>
               <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" autocomplete="off" required>
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              <small id="emailHelp" name="email" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
               <label for="enquiry">Enquiry Details:</label>
-              <textarea class="form-control" rows="5" id="enquiry" placeholder="Leave blank to request a callback"></textarea>
+              <textarea class="form-control" name="enquiry" rows="5" id="enquiry" placeholder="Leave blank to request a callback"></textarea>
             </div>
             <button type="submit" class="landing-button mt-2">Submit</button>
           </form>

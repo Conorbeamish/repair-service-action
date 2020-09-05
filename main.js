@@ -19,4 +19,29 @@ $( document ).ready(function() {
             $(".navbar-toggler").click();
         }
     });
+
+    //Handle form submit
+    $("#form").submit(function(event){
+        var data = {
+            name: $("#name").val(),
+            number: $("#number").val(),
+            email: $("#email").val(),
+            enquiry: $("#enquiry").val()
+        }
+        $.ajax({
+            url: "https://formspree.io/YOUR_FORM_ID",
+            method: "POST",
+            dataType: "json",
+            data: data,
+            success: function(){
+                $(this).addClass("hidden");
+                $("form-message").removeClass("hidden")
+    
+            },
+            error: function(){
+                alert("Error sending form, check connection & please try again")
+            }
+        })
+        event.preventDefault();
+    })
 });

@@ -109,6 +109,15 @@ body {
     max-width: 100%;
 }
 
+.hidden{
+    opacity: 0;
+    transition: 800ms;
+}
+
+#form-message{
+    transition: 1000ms;
+}
+
 .footer{
     background-color: #333333;
     color: white;
