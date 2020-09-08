@@ -42,6 +42,29 @@ body {
     bottom: 0;
     right: 0;
 }
+.mybuild{
+    height: 9rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rated{
+    height: 7rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* .checko {
+    height: 7rem;
+    position: absolute;
+    bottom: 0;
+    /* left: 0;
+    right: 0; */ 
+/* 
+} */
+
 
 .black{
     color: black;
@@ -49,6 +72,10 @@ body {
 
 .italic{
     font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .landing-button{
@@ -74,6 +101,14 @@ body {
     background-size: cover;
 }
 
+.luxbathroom {
+    background: linear-gradient( rgba(255, 255, 255, 0.781), rgba(255, 255, 255, 0.89) ), url(images/luxarybathroom2.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .landing-hr {
     border: 0;
     height: 1px;
@@ -91,13 +126,25 @@ body {
     color: #ff7300 ;
     font-size: 125%;
 }
-
+.bottom {
+    color: #ff7300 ;
+    
+}
 .brand-color{
     color:#ff7300 ;
 }
 
 .quote {
     font-size: smaller;
+    margin-top: -15px;
+
+    
+}
+
+.textdiff {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.1rem;
+
 }
 
 .logos{
@@ -137,3 +184,91 @@ body {
       height: 10rem;
     }
   }
+
+  .image1 {
+      height: 4.5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 2rem;
+    
+    
+  }
+
+  .check {
+      margin-left: -0.3rem;
+  }
+
+  #image {
+    filter: brightness(110%);
+  }
+
+  .icon {
+      height: 5rem;
+  }
+  .icon2 {
+    height: 4.0rem;
+    color: black;
+}
+
+.rad {
+    padding-top: 0.5rem;
+}
+
+  /* .quotes {
+      padding-top: rem;
+  } */
+
+  .pride {
+      color: black;
+      font-size: +1.2rem;
+    
+  }
+
+  .pride2 {
+      font-size: +1.7rem;
+      color: coral;
+  }
+
+  .brands {
+      font-size: +1rem;
+  }
+
+ .shadow { text-shadow: #FC0 1px 0 10px;
+   
+  }
+
+  .builder {
+      height: 6rem;
+      /* margin-top: 3rem;
+      margin-right: 19rem; */
+  }
+
+  .taps {
+    height: 15rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+  }
+
+  .shower {
+    height: 15rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+
+  .thelogos {
+      margin-top: 5rem;
+  }
+
+  .buttonlogo {
+      height: 3rem;
+
+  }
+
+.boiler {
+    margin-top: -2.5rem;
+}
+  
