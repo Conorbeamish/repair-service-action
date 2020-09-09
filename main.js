@@ -36,7 +36,6 @@ $( document ).ready(function() {
             success: function(){
                 $("#form").addClass("hidden");
                 $("#form-message").removeClass("hidden")
-    
             },
             error: function(){
                 alert("Error sending form, check connection & please try again")
